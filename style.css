@@ -22,12 +22,48 @@ body {
 }
 
 .text-box {
-  margin: 0px auto;
+  font-size: 14px;
+  margin: 0px auto 20px auto;
+  padding: 25px;
   width: 40%;
 }
 
 p{
   text-align: center;
-  margin: 3px 0;
-  font-size: 17px;
+  margin: 8px 0;
+  font-size: 18px;
 }
+
+.single-message {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  border-radius: 8px;
+  background: #000 !important;
+  margin-bottom: 3px;
+}
+
+.message-text {
+  width: 50%;
+  padding-left: 15px;
+  vertical-align: middle;
+  color: #FFF;
+}
+
+.message-cookie {
+  width: 40%;
+  font-size: 14px;
+  color: #FFF;
+}
+
+.message-time {
+  width: 10%;
+  font-size: 14px;
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 15px;
+  color: #FFF;
+}
+
+.ng-scope { background: #efefef;}
